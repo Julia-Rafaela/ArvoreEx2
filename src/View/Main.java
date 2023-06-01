@@ -10,10 +10,13 @@ public class Main {
             arvore.insert(i);
         }
         try {
+        	System.out.print("pré-ordem: ");
             arvore.prefixSearch();
             System.out.println();
+            System.out.print("ordem crescente: ");
             arvore.infixSearch();
             System.out.println();
+            System.out.print("pós-ordem: ");
             arvore.postfixSearch();
             System.out.println();
  
